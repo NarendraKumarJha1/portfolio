@@ -2,6 +2,8 @@ import './App.css';
 import Header from '../src/Compo/Header';
 import Hero from './Compo/Hero';
 import About from './Compo/About';
+import Facts from './Compo/Facts';
+import Skills from './Compo/Skills';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
      <Header/>
      <Hero/>
      <About/>
+     <Facts/>
+     <Skills/>
     </div>
   );
 }
