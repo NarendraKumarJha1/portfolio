@@ -4,6 +4,7 @@ import Hero from './Compo/Hero';
 import About from './Compo/About';
 import Facts from './Compo/Facts';
 import Skills from './Compo/Skills';
+import Resume from './Compo/Resume';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <About/>
      <Facts/>
      <Skills/>
+     <Resume/>
     </div>
   );
 }
